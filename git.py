@@ -66,5 +66,8 @@ while True:
         break
     elif z == '9':
        os.system("git branch -m master main")
+    elif z == '10':
+       os.system("git config pull.rebase true")
+       os.system("git config pull.ff only")
     else:
         print("不是这个")
